@@ -4,9 +4,11 @@
 
 package me.tim;
 
+import me.tim.util.Vec2f;
+
 /**
- * Class used to save position data of literally anything.
- * (Probably some kind of entities)
+ * Class used to save position data of literally anything that's two-dimensional.
+ * (Probably some kind of Rectangles or two-dimensional entities)
  *
  * @author Tim
  * @since 21.11.2022 - Version 1.0
@@ -50,6 +52,21 @@ public class BoundingBox2D {
         this.isCircle = true;
     }
 
+    /**
+     * Get the Center of this two-dimensional BoundingBox
+     *
+     * @return new Vec2 -> Targets the Center of the provided BoundingBox
+     */
+    public Vec2f getCenter() {
+        return (
+                this.isCircle() ?
+                        new Vec2f(this.getXPos(), this.getYPos()).addAll(this.getRadius())
+                        : new Vec2f(this.getXPos(), this.getYPos()).add(
+                                this.getWidth() / 2f,
+                                this.getHeight() / 2f)
+        );
+    }
+
     public float getXPos() {
         return xPos;
     }
@@ -88,6 +105,10 @@ public class BoundingBox2D {
 
     public void setDiameter(float diameter) {
         this.diameter = diameter;
+    }
+
+    public float getRadius() {
+        return this.diameter / 2f;
     }
 
     public boolean isCircle() {
