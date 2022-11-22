@@ -6,7 +6,14 @@ CollisionMath is a Java library which can help you handle collision math for gam
 
 Use the [GitHub releases](https://github.com/Web-Tim/CollisionMath/releases) to install CollisionMath.
 
-**Maven coming soon ...**
+**Or install using maven!**
+```xml
+<dependency>
+    <groupId>me.tim</groupId>
+    <artifactId>collisionmath</artifactId>
+    <version>1.1</version>
+</dependency>
+```
 
 ## Usage
 
