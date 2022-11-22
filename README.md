@@ -2,7 +2,7 @@
 
 [![CodeFactor](https://www.codefactor.io/repository/github/web-tim/collisionmath/badge)](https://www.codefactor.io/repository/github/web-tim/collisionmath)
 
-**CollisionMath is a Java library which can help you handle collision math for games, physic engines or anything else.**
+CollisionMath is a Java library which can help you handle collision math for games, physic engines or anything else.
 
 ## Installation
 
