@@ -11,7 +11,7 @@ import me.tim.util.Vec3f;
  * (Probably some entity or just a cube)
  *
  * @author Tim
- * @since 22.11.2022 - Version 1.1
+ * @since 22.11.2022 - Version 0.0.2
  */
 @SuppressWarnings("unused")
 public class BoundingBox3D {

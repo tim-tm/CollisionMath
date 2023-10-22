@@ -11,7 +11,7 @@ import me.tim.util.Vec2f;
  * (Probably some kind of Rectangles or two-dimensional entities)
  *
  * @author Tim
- * @since 21.11.2022 - Version 1.0
+ * @since 21.11.2022 - Version 0.0.1
  */
 @SuppressWarnings("unused")
 public class BoundingBox2D {

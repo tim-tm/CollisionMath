@@ -11,7 +11,7 @@ import java.awt.*;
  * Example class for a possible usage of the CollisionLib.
  *
  * @author Tim
- * @since 21.11.2022 - Version 1.0
+ * @since 21.11.2022 - Version 0.0.1
  */
 public class TestMain {
     //Simple JFrame

@@ -10,7 +10,7 @@ import me.tim.util.Vec3f;
  * Used to handle simple collisions between two bounding-boxes.
  *
  * @author Tim
- * @since 21.11.2022 - Version 1.0
+ * @since 21.11.2022 - Version 0.0.1
  */
 @SuppressWarnings("unused")
 public class CollisionHandler {

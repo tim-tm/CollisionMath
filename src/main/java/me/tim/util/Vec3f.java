@@ -8,7 +8,7 @@ package me.tim.util;
  * This class was created to properly save and manage three-dimensional coordinates;
  *
  * @author Tim
- * @since 22.11.2022 - Version 1.1
+ * @since 22.11.2022 - Version 0.0.2
  */
 @SuppressWarnings("unused")
 public class Vec3f {
