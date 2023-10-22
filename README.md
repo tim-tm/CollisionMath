@@ -1,7 +1,5 @@
 # CollisionMath
 
-[![CodeFactor](https://www.codefactor.io/repository/github/web-tim/collisionmath/badge)](https://www.codefactor.io/repository/github/web-tim/collisionmath)
-
 CollisionMath is a Java library which can help you handle collision math for games, physic engines or anything else.
 
 ## Installation
@@ -11,7 +9,7 @@ CollisionMath is a Java library which can help you handle collision math for gam
 <dependency>
     <groupId>me.tim</groupId>
     <artifactId>collisionmath</artifactId>
-    <version>1.1</version>
+    <version>0.0.2</version>
 </dependency>
 ```
 
@@ -78,4 +76,4 @@ Please make sure to update tests as appropriate.
 
 ## License
 
-[GPL-3.0](https://choosealicense.com/licenses/gpl-3.0/)
+[MIT](https://github.com/tim-tm/CollisionMath/blob/main/LICENSE)
