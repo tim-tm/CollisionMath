@@ -7,13 +7,11 @@ package me.tim;
 import me.tim.util.Vec2f;
 
 /**
- * Class used to save position data of literally anything that's two-dimensional.
- * (Probably some kind of Rectangles or two-dimensional entities)
- *
+ * Save position data of literally anything that's two-dimensional. 
+ * 
  * @author Tim
- * @since 21.11.2022 - Version 0.0.1
+ * @since Version 0.0.1
  */
-@SuppressWarnings("unused")
 public class BoundingBox2D {
     private float xPos, width, yPos, height;
     private float diameter;
@@ -67,50 +65,96 @@ public class BoundingBox2D {
         );
     }
 
+    /**
+     * @return The xPos
+     */
     public float getXPos() {
         return xPos;
     }
 
+    /**
+     * Set the value for xPos.
+     *
+     * @param xPos
+     */
     public void setXPos(float xPos) {
         this.xPos = xPos;
     }
 
+    /**
+     * @return The width
+     */
     public float getWidth() {
         return width;
     }
 
+    /**
+     * Set the value for width.
+     *
+     * @param width
+     */
     public void setWidth(float width) {
         this.width = width;
     }
 
+    /**
+     * @return The yPos
+     */
     public float getYPos() {
         return yPos;
     }
 
+    /**
+     * Set the value for yPos.
+     *
+     * @param yPos
+     */
     public void setYPos(float yPos) {
         this.yPos = yPos;
     }
 
+    /**
+     * @return The height.
+     */
     public float getHeight() {
         return height;
     }
 
+    /**
+     * Set the value for height.
+     *
+     * @param height
+     */
     public void setHeight(float height) {
         this.height = height;
     }
 
+    /**
+     * @return The diameter.
+     */
     public float getDiameter() {
         return diameter;
     }
 
+    /**
+     * Set the value for diameter.
+     *
+     * @param diameter
+     */
     public void setDiameter(float diameter) {
         this.diameter = diameter;
     }
 
+    /**
+     * @return The radius.
+     */
     public float getRadius() {
         return this.diameter / 2f;
     }
 
+    /**
+     * @return Is the BoundingBox2D a circle?
+     */
     public boolean isCircle() {
         return isCircle;
     }

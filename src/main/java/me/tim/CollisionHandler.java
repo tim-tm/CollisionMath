@@ -7,12 +7,11 @@ package me.tim;
 import me.tim.util.Vec3f;
 
 /**
- * Used to handle simple collisions between two bounding-boxes.
+ * Handle simple collisions between two bounding-boxes.
  *
  * @author Tim
- * @since 21.11.2022 - Version 0.0.1
+ * @since Version 0.0.1
  */
-@SuppressWarnings("unused")
 public class CollisionHandler {
     /**
      * Use this method to detect collision between two, two-dimensional bounding-boxes.

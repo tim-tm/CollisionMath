@@ -7,13 +7,11 @@ package me.tim;
 import me.tim.util.Vec3f;
 
 /**
- * Class used to save position data of literally anything that's three-dimensional.
- * (Probably some entity or just a cube)
+ * Save position data of literally anything that's three-dimensional.
  *
  * @author Tim
- * @since 22.11.2022 - Version 0.0.2
+ * @since Version 0.0.2
  */
-@SuppressWarnings("unused")
 public class BoundingBox3D {
     private float minX, minY, minZ, maxX, maxY, maxZ;
     private float diameter;

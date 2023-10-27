@@ -5,12 +5,11 @@
 package me.tim.util;
 
 /**
- * This class was created to properly save and manage two-dimensional coordinates;
+ * This class was created to properly save and manage two-dimensional coordinates.
  *
  * @author Tim
- * @since 22.11.2022 - Version 0.0.2
+ * @since Version 0.0.2
  */
-@SuppressWarnings("unused")
 public class Vec2f {
     private float x, y;
 
@@ -36,8 +35,7 @@ public class Vec2f {
     }
 
     /**
-     * Return a new Vec2 with the given positions added.
-     * Different parameters for different axis.
+     * Return a new Vec2 with the given positions added. Different parameters for each axis.
      *
      * @param x addition on X-Axis
      * @param y addition on Y-Axis
@@ -48,8 +46,7 @@ public class Vec2f {
     }
 
     /**
-     * Return a new Vec2 with the given positions added.
-     * Single parameter for every axis.
+     * Return a new Vec2 with the given positions added. Single parameter for every axis.
      *
      * @param value addition on X and Y-Axis
      * @return new Vec2 with added Positions
@@ -58,18 +55,38 @@ public class Vec2f {
         return new Vec2f(this.x + value, this.y + value);
     }
 
+    /**
+     * Get the value of x.
+     *
+     * @return The value for x.
+     */
     public float getX() {
         return x;
     }
 
+    /**
+     * Set a new value for x.
+     *
+     * @param x new x-value
+     */
     public void setX(float x) {
         this.x = x;
     }
 
+    /**
+     * Get the value of y.
+     *
+     * @return The value for y.
+     */
     public float getY() {
         return y;
     }
 
+    /**
+     * Set a new value for y.
+     *
+     * @param y new y-value
+     */
     public void setY(float y) {
         this.y = y;
     }

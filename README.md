@@ -1,6 +1,6 @@
-# CollisionMath
+# collisionmath
 
-CollisionMath is a Java library which can help you handle collision math for games, physic engines or anything else.
+collisionmath is a Java library which can help you handle collision math for games, physic engines or anything else.
 
 ## Installation
 
@@ -13,7 +13,7 @@ CollisionMath is a Java library which can help you handle collision math for gam
 </dependency>
 ```
 
-**Or install using [GitHub Releases](https://github.com/Web-Tim/CollisionMath/releases)!**
+**Or install using [GitHub Releases](https://github.com/Web-Tim/collisionmath/releases)!**
 
 ## Usage
 
@@ -67,6 +67,10 @@ public class App {
 }
 ```
 
+## Documentation
+
+[JavaDoc location](https://github.com/tim-tm/collisionmath/tree/main/docs/apidocs)
+
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first
@@ -76,4 +80,4 @@ Please make sure to update tests as appropriate.
 
 ## License
 
-[MIT](https://github.com/tim-tm/CollisionMath/blob/main/LICENSE)
+[MIT](https://github.com/tim-tm/collisionmath/blob/main/LICENSE)

@@ -18,7 +18,22 @@
         <repository>
             <id>github</id>
             <name>GitHub tim-tm Apache Maven Packages</name>
-            <url>https://maven.pkg.github.com/tim-tm/CollisionMath</url>
+            <url>https://maven.pkg.github.com/tim-tm/collisionmath</url>
         </repository>
     </distributionManagement>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-javadoc-plugin</artifactId>
+                <version>3.0.0</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                    <reportOutputDirectory>${basedir}/docs</reportOutputDirectory>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>
